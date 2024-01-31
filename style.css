@@ -1,0 +1,631 @@
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  font-family: "Rubik", sans-serif;
+  background-color: #f6f7f8;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff3e9;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.yellowButton {
+  min-width: 139px;
+  height: 44px;
+  background-color: #e67e22;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 700;
+  width: 558px;
+  height: 171px;
+}
+
+.textContent p {
+  width: 558px;
+}
+
+.whiteButton {
+  min-width: 139px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #555555;
+  border: none;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.photoContent {
+  position: relative;
+  top: 0px;
+  width: 500px;
+  height: 665px;
+}
+
+.firstFoodPhoto {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.secondFoodPhoto {
+  position: relative;
+  top: -200px;
+  left: 100px;
+}
+
+.thirdFoodPhoto {
+  position: relative;
+  top: -228px;
+  left: 103px;
+}
+
+.partnersIcon {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 50px;
+}
+
+.partners {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.tutorial {
+  padding-top: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.tutorialLesson {
+  display: flex;
+  justify-content: space-between;
+}
+
+.howItWorks {
+  font-size: 16px;
+  color: #e67e22;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.tutorial h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.nubmer {
+  font-size: 70px;
+  font-weight: bold;
+  color: rgb(179, 174, 174);
+}
+
+.tutorialLesson.second {
+  flex-direction: row-reverse;
+}
+
+.testimonialsBox {
+  width: 280px;
+  height: 300px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+.testimonialsTextContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 120px;
+}
+
+.testimonialsPhotoContent {
+  width: 50%;
+}
+
+.testiBoxContatner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mealBoxesContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mealContainer {
+  padding-left: 120px;
+  padding-right: 150px;
+}
+
+.title {
+  text-align: center;
+  color: #e67e22;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 96px;
+}
+
+.mealBox {
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  margin-bottom: 80px;
+}
+
+.mealInfo {
+  width: 323px;
+}
+
+.vegetarian {
+  border-radius: 25px;
+  background: #51cf66;
+  border: none;
+  text-transform: uppercase;
+  margin: 44px 0 18px 48px;
+  font-weight: 500;
+  color: #333;
+  padding: 5px;
+}
+
+.paleo {
+  border-radius: 25px;
+  background: #f2c94c;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #333;
+  padding: 5px;
+}
+
+.food-title {
+  margin: 0 40px 33px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.food-info {
+  margin: 0 40px 40px;
+}
+
+.food-info img {
+  margin-right: 24px;
+}
+
+.food-info span {
+  font-weight: 700;
+  color: #555;
+}
+
+.mealInfo-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 41px;
+}
+
+.mealInfo ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.mealInfo li {
+  display: flex;
+  gap: 24px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  padding: 48px 56px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.starter {
+  border: 1px solid #ffd8b7;
+}
+
+.complete {
+  background-color: #feecde;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-title {
+  color: #e67e22;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.pricing-subtitle {
+  color: #333;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 88px;
+}
+
+.pricing {
+  margin: 0 147px 118px;
+}
+
+.price-info {
+  text-align: center;
+}
+
+.card-title {
+  color: #e67e22;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.card-price {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.card-price span {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.card-desc {
+  color: #555;
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 58px;
+}
+
+.card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 48px;
+}
+
+.card li {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.ugol {
+  position: absolute;
+  background-color: #f2c94c;
+  width: 197px;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+  top: 35px;
+  right: -50px;
+  height: auto;
+  padding: 8px;
+}
+
+.form-container {
+  display: flex;
+  margin: 0 148px 120px;
+  background-color: #e98f40;
+  border-radius: 12px;
+}
+
+.form {
+  padding: 52px 40px 47px;
+}
+
+.form-container img {
+  width: 385px;
+}
+
+.form h1 {
+  height: fit-content;
+  margin-bottom: 60px;
+  width: fit-content;
+}
+
+.form p {
+  color: #45260a;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 174%;
+  margin-bottom: 41px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: end;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inputs label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.inputs input,
+select {
+  width: 288px;
+  padding: 12px 12px 12px;
+  border: none;
+  border-radius: 9px;
+  color: #aaaab0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.inputs select {
+  width: 312px;
+}
+
+.inputs input:focus {
+  outline: 5px solid #f4c79f;
+}
+
+.inputs option {
+  color: #222;
+  margin: 11px 0;
+}
+
+.form-button {
+  width: 312px;
+  background: #45260a;
+  height: 45px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background: #301b08;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  padding: 88px 147px;
+  display: flex;
+  gap: 30px;
+  color: #555;
+}
+
+.logo {
+  margin-bottom: 40px;
+}
+
+.copyright {
+  width: 200px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 200px;
+}
+
+.footer-title {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.footer-list {
+  width: 200px;
+}
+
+.footer-list p {
+  margin-bottom: 24px;
+}
+
+.footer-list li {
+  margin: 0 0 20px;
+  cursor: pointer;
+}
+
+.footer-list li:hover {
+  color: #272727;
+}
+
+@media (max-width:375px) {
+  
+}
